@@ -12,6 +12,7 @@ I've spent years on the operations side: running infrastructure, supporting user
 
 #### Currently building
 
-- **Personal site** — portfolio and technical notes. *In progress.*
+- **[Personal site](https://zxxdev.github.io)** — portfolio and technical notes. *In progress.*
+- **[TrailMate](https://github.com/zxxdev/TrailMate)** — leveling coach addon for World of Warcraft: Forever. *Alpha.*
 
 <!-- Projects are added here as they reach their first release. -->
