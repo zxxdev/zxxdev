@@ -15,8 +15,8 @@ I've spent years on the operations side: running infrastructure, supporting user
 Most recently changed first. More about each one on [zxxdev.github.io](https://zxxdev.github.io/projects/).
 
 <!-- projects:start -->
-- **[zxxdev.github.io](https://zxxdev.github.io)**: Personal site and project portfolio, built with Astro and deployed to GitHub Pages.
 - **[RetailArenaCountdown](https://github.com/zxxdev/RetailArenaCountdown)**: World of Warcraft 3.3.5a \(Wrath of the Lich King\) addon: the modern arena countdown, with big numbers, sounds and your faction's crest when the gates open. Works without Gladdy. *Latest release: v1.0.0.*
+- **[zxxdev.github.io](https://zxxdev.github.io)**: Personal site and project portfolio, built with Astro and deployed to GitHub Pages.
 - **[DispelGlow](https://github.com/zxxdev/DispelGlow)**: World of Warcraft 3.3.5a \(Wrath of the Lich King\) addon: enemy Magic buffs glow on your target and focus frames when your character can purge or dispel them. *Latest release: v1.0.0.*
 - **[TrailMate](https://github.com/zxxdev/TrailMate)**: Leveling coach addon for World of Warcraft: Forever: quest guides, its own arrow and map marks, talents, dungeons and an optional AI companion chat. Alpha.
 <!-- projects:end -->
