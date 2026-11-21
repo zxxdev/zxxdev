@@ -1,0 +1,43 @@
+name: Update the project list
+
+# Every day, and on demand, the list in README.md is rebuilt from the
+# account's public repositories, so a new repository appears on the profile
+# without anyone editing it. A commit is made only when the list changed.
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-projects
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Rebuild the list
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write # to commit the updated README
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Rebuild the list from GitHub
+        run: bash scripts/update-projects.sh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Commit it if it changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "The list has not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: update the project list" -- README.md
+          git push
