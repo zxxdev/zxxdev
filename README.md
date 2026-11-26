@@ -15,9 +15,9 @@ I've spent years on the operations side: running infrastructure, supporting user
 Most recently changed first. More about each one on [zxxdev.github.io](https://zxxdev.github.io/projects/).
 
 <!-- projects:start -->
+- **[roadmap-badges](https://zxxdev.github.io)**: GitHub Action that computes a project's progress from a feature catalog and its test results, and publishes badges, a progress map and its history.
 - **[zxxdev.github.io](https://zxxdev.github.io)**: Personal site and project portfolio, built with Astro and deployed to GitHub Pages.
 - **[TrailMate](https://github.com/zxxdev/TrailMate)**: Leveling coach addon for World of Warcraft: Forever: quest guides, its own arrow and map marks, class quests, talents, dungeons and an optional AI companion chat. Beta. *Latest release: v0.5.2-beta.*
-- **[roadmap-badges](https://zxxdev.github.io)**: GitHub Action that computes a project's progress from a feature catalog and its test results, and publishes badges, a progress map and its history.
 - **[winops-audit](https://zxxdev.github.io)**: Read-only audits for Windows administrators, as a PowerShell 7 module: inventory, certificates, folder permissions and Active Directory. Returns objects, changes nothing.
 - **[RetailArenaCountdown](https://github.com/zxxdev/RetailArenaCountdown)**: World of Warcraft 3.3.5a \(Wrath of the Lich King\) addon: the modern arena countdown, with big numbers, sounds and your faction's crest when the gates open. Works without Gladdy. *Latest release: v1.0.0.*
 - **[DispelGlow](https://github.com/zxxdev/DispelGlow)**: World of Warcraft 3.3.5a \(Wrath of the Lich King\) addon: enemy Magic buffs glow on your target and focus frames when your character can purge or dispel them. *Latest release: v1.0.0.*
